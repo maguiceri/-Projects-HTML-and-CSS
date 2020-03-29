@@ -18,13 +18,85 @@
 
    <imput></imput>
 
-   <textarea cols="30" rows="10"></textarea>
 
    <button>hola</button>
-
+   <spam>Holaaaa</spam>
    <br>
-      
-   <div>
+   <br>
+   <input type="password" maxlenght="5">
+
+   <form action="miFormulario.com/form">
+      <h2>Formulario de Contacto</h2>
+      <input type="hidden" name="id" value="123">
+      <br>
+      <label>
+           Nombre del Dogue
+          <input type="text" name="nombre" id="doge-name" placeholder="nombre doge">
+      </label> 
+      <br>
+      <label>
+         Apellido del Dogue
+         <input type="text" name="apellido" id="doge-lastname" placeholder="apellido del doge">
+      </label>
+
+      <br>
+
+      <h3>Color de la lengua de tu dogue</h3>
+      <label>
+      <input type="radio" name="tongue_color" value="red"> 
+       rojo
+      </label> 
+      <label>
+      <input type="radio" name="tongue_color" value="green">
+      verde
+      </label>
+      <br>
+      <div></div>
+
+      <br>
+      <br>
+
+      <h3> Tipo de Alimento que esta bestia engulle </h3>
+
+      <label>
+       <input type="checkbox" name="comida-balanceada" valeu="balanceado">
+       balanceado
+      </label>
+
+      <label>
+       <input type="checkbox" name= "comida-comun" valeu="comun">
+       el comun nomas
+      </label>
+
+
+      <br>
+      <br>
+      <label>
+         Contextura del Dogue
+         <select name="dogue-fatness">
+            <option value="Flaquito">Flaquito</option>
+            <option value="Maso">Masomenos</option>
+            <option value="Rellenito">Rellenito</option>
+         </select>
+      </label>  
+      <br>
+      <br>
+      <label>
+           foto del dogue
+           <input disabled type="file" accept=".jpg,.png,.bmp">
+      </label>
+      <br>
+      <br>
+      <label for="doge-description-id">Descripcion del Dogue</label>
+      <br>
+      <textarea name="doge-description" id="dogue-description-id" cols="30" rows="10"></textarea>
+      <br>
+      <br>
+      <input type="submit" value="enviar la informacion de mi doge">
+
+   </form>
+
+   <div style="background-color:blueviolet">
         <a href="google.com">google</a>
         <br/>
         <img src="https://www.sprachcaffe.com/typo3temp/fl_realurl_image/cuantos-paises-hay-en-el-mundo-5c366d63.jpg" alt="un mundo" />
