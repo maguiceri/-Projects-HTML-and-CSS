@@ -1,0 +1,67 @@
+
+
+
+.article{
+    margin: 2rem auto;
+    width: 40rem;
+    height:30rem;
+   
+      
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.title{
+    margin-bottom: 2rem;
+    font-size: 3.6rem;
+    color:grey;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sub-title{
+    color:gray;
+    display: block;
+    margin-bottom: 3rem;
+    
+
+
+}
+
+.text{
+
+    margin-bottom: 4rem;
+    font-size: 1.5rem;
+    color:gray;
+
+    
+    
+
+}
+
+.button{
+    
+    border: 0.1rem solid red;
+    padding: 1rem 1.6rem;
+    display:inline-block;
+    width:150px;
+    margin-right: 20px;
+    
+       
+}
+
+.button.on{
+ border: 0.1rem solid red;
+ background-color:red;
+ color:white;
+ 
+ 
+}
+
+
+.button.later{
+color:red;
+
+
+}
+

@@ -1,0 +1,42 @@
+.wrapper{
+    background-color:pink;
+    height:400px;
+    position:relative;
+  }
+  
+  .article{
+    padding:10px;
+    background-color:white;
+    margin-bottom: 5px;
+    width:180px;
+    position:absolute;
+    height:100%;
+  }
+  
+  .art1{
+    top:0;
+    left:0;
+    background-color:blue;
+  }
+  .art2{
+    top:0;
+    left:200px;
+     background-color:orange;
+  }
+  
+  .art3{
+    background-color:white;
+    top:0;
+    left:400px;
+  }
+  
+  .art4{
+    top:0;
+    left:600px;
+    background-color:pink;
+  }
+  .art5{
+    top:0;
+    left:800px;
+    background-color:black;
+  }

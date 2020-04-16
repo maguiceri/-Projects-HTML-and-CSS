@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body{
+    overflow: hidden;
+}
+
+
+.main{
+    background-color: blue;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open sans';
+    
+    
+    
+    
+    }
+    
+    .header{
+        background-color: white;
+        padding: 15px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .articles-wrapper{
+        flex-grow: 1;
+        display: flex;
+        
+        
+       
+        
+        
+    }
+    
+    .articles-wrapper .article{
+        display:flex;
+        flex-direction: column;
+        padding: 15px;
+        width: 20%;
+
+    
+    }
+    
+    .article .article-date{
+      margin-bottom: 1em; 
+      font-size:0.8em;
+      
+    }
+    .article .article-title{
+      font-size:2.4em;
+      margin-bottom:0.6em;
+      font-weight: bold;
+    }
+
+    .article .article-text{
+        line-height: 1.2em;
+    }
+    
+    .article .red-link{
+      margin-top: auto;
+    }
+
+    .articles-wrapper .article:nth-child(1){
+        background-color: #FF9AA2;
+    
+    }
+
+    .articles-wrapper .article:nth-child(2){
+        background-color: #FFB7B2;
+    }
+
+    .articles-wrapper .article:nth-child(3){
+        background-color: #FFDAC1;
+    
+    }
+
+    .articles-wrapper .article:nth-child(4){
+        background-color: E2F0CB;
+
+    }
+
+    .articles-wrapper .article:nth-child(5){
+        background-color: #B5EAD7;
+    }
+
+
