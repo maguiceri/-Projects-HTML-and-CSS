@@ -1,16 +1,16 @@
 
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 .article{
+    
     margin: 2rem auto;
     width: 40rem;
     height:30rem;
    
-      
 }
 
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
 
 .title{
     margin-bottom: 2rem;

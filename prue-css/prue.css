@@ -1,7 +1,13 @@
-body{
+body {
     background-color: red;
+    margin:0;
 }
 
-main{
-    
+main {
+
+    background-color: blue;
+   height:100vh;
+  
+
 }
+    
