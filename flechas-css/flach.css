@@ -1,0 +1,63 @@
+*, *:after, *::before{
+    box-sizing: border-box;
+}
+
+
+.wrapper{
+display:flex;
+}
+
+
+.box{
+flex-grow:1;
+height: 50px;
+background-color: cornflowerblue;
+position:relative;
+margin-top:100px;
+padding:20px;
+
+
+}
+
+
+.box:nth-child(2n){
+    background-color: coral;
+}
+
+.box:hover{
+    background-color: cyan;
+}
+
+.box:active{
+    background-color: green;
+}
+
+.box:before,.box:after{
+    position:absolute;
+    background-color: cyan;
+    padding:5px;
+    display:none;
+    left:0;
+
+}
+
+.box:before{
+   content:"hola mundo";
+   bottom:100%;   
+
+}
+
+.box:after{
+    content:"que onda";
+    top:100%;
+    
+}
+
+.box:hover:before{
+    display:block;
+}
+
+.box:hover:after{
+    display:block;
+}
+
