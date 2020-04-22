@@ -1,0 +1,14 @@
+@import"modules/left";
+@import"modules/left";
+@import"modules/right";
+@import"modules/intro";
+@import"modules/everithing";
+
+
+.wrapper{
+    display:flex;
+    min-height:30rem;
+    max-width:60rem;
+    margin: 5rem auto;
+
+}
