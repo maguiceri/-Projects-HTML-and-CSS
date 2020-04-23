@@ -1,0 +1,21 @@
+.everithing{
+    .header{
+        color: rgb(131, 118, 118);
+        font-size: 0.9rem;
+    }
+    .title{}
+    .subtitle{}
+    .button{
+        display:inline-block;
+        color:white;
+        padding:0.3rem;
+        font-size:0.8rem;
+
+        .java{
+            display:inline-block;
+            padding:0.2rem 0.7rem;
+            background-color: red;
+        }
+    }
+    .text{}
+}

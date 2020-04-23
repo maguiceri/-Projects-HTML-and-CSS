@@ -1,0 +1,78 @@
+.left {
+  background-color: grey;
+  color: white;
+  padding: 3rem;
+}
+.left .post {
+  display: inline-block;
+}
+.left .post .button {
+  display: inline-block;
+  background-color: grey;
+  color: white;
+  font-size: 0.7rem;
+  padding: 0.5rem;
+}
+.intro {
+  position: relative;
+}
+.intro .header {
+  color: #837676;
+  font-size: 0.9rem;
+}
+.intro .int .post {
+  display: inline-block;
+}
+.intro .int .post .button {
+  display: inline-block;
+  color: white;
+  font-size: 0.8rem;
+}
+.intro .int .post .button .css {
+  background-color: green;
+  padding: 0.2rem 0.7rem;
+}
+.intro .int .post .button .pure {
+  background-color: blue;
+  padding: 0.2rem 0.7rem;
+}
+.intro .int .imagine {
+  position: absolute;
+  left: 90%;
+  top: 20%;
+  border-radius: 100%;
+  width: 3rem;
+  height: 3rem;
+  background-image: url(https://images.unsplash.com/photo-1497551060073-4c5ab6435f12?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+}
+
+.everithing .header {
+  color: #837676;
+  font-size: 0.9rem;
+}
+.everithing .button {
+  display: inline-block;
+  color: white;
+  padding: 0.3rem;
+  font-size: 0.8rem;
+}
+.everithing .button .java {
+  display: inline-block;
+  padding: 0.2rem 0.7rem;
+  background-color: red;
+}
+.right {
+  background-color: white;
+  padding: 2rem;
+}
+
+.body .wrapper {
+  margin: 0 auto;
+  max-width: 60rem;
+  min-height: 10rem;
+  background-color: red;
+  display: flex;
+}
+
+/*# sourceMappingURL=index.css.map */
