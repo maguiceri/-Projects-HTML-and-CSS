@@ -1,0 +1,55 @@
+@import"article-image";
+
+
+.article{ 
+    display:flex;
+    flex-direction:column;
+    max-width:50rem;
+
+    .art{
+
+                .head{
+                .page-title{
+                    color: #444;
+                    font-size: 3em;
+                    font-family: 'courier new', courier, monospace;
+                    text-align: center;
+                }
+                }
+
+                .article-post{
+                    .post-article{
+                    margin: 2em auto;
+                    border: 1px solid #444444;
+                    padding: 1.8em 2em;
+
+                    .post-title{
+                        color: #444;
+                        font-size: 2.2em;
+                        margin: 0;
+                    }
+
+                    .text-content{
+                        font-family: sans-serif;
+                        font-size: 1.2em;
+                        line-height: 1.8em;
+                        color: grey;
+                        margin-bottom: 1.2em;
+                        font-weight: 100;
+                    }
+
+                    .info{
+                        font-family: sans-serif;
+                    color:grey;
+                    margin-right: 1em;
+                    font-weight:600;   
+            
+                    }
+                
+                    }
+
+                }
+
+    }
+    
+}
