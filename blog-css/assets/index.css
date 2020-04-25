@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,300;1,900&display=swap");
 .left {
   display: flex;
   flex-direction: column;
@@ -11,10 +14,15 @@
   height: 10rem;
   width: 10rem;
 }
-.left .name {
-  font-size: 1rem;
+.left .text {
+  margin: 0 auto;
 }
-.left .profession {
+.left .text .name {
+  font-size: 1rem;
+  font-weight: 900;
+  font-style: italic;
+}
+.left .text .profession {
   font-size: 0.8rem;
 }
 .left .icons {
@@ -31,6 +39,60 @@
   box-shadow: 0px 0px 40px #b3aaaa;
   margin: 2rem 2rem 2rem 0.5rem;
 }
+.right .head {
+  padding: 1.3rem 0rem;
+  font-style: italic;
+  font-size: 1.3rem;
+  font-weight: 900;
+  border-bottom: 1px solid grey;
+}
+.right .article {
+  font-size: 0.9rem;
+  color: grey;
+  font-style: italic;
+}
+.right .article .intro .title {
+  color: black;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+.right .article .intro .sub-title {
+  font-size: 0.8rem;
+  font-weight: 900;
+}
+.right .article .intro .text {
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+.right .article .intro .link {
+  font-size: 0.8rem;
+  font-weight: 900;
+  color: #18e0e7;
+  text-decoration: none;
+}
+.right .article .how {
+  font-size: italic;
+  color: grey;
+}
+.right .article .how .title {
+  color: black;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+.right .article .how .sub-title {
+  font-size: 0.8rem;
+  font-weight: 900;
+}
+.right .article .how .text {
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+.right .article .how .link {
+  font-size: 0.8rem;
+  font-weight: 900;
+  color: #18e0e7;
+  text-decoration: none;
+}
 
 *, *:after, *:before {
   box-sizing: border-box;
@@ -46,6 +108,7 @@
   display: flex;
   align-items: flex-start;
   max-width: 60%;
+  font-family: "Roboto", sans-serif;
 }
 
 /*# sourceMappingURL=index.css.map */
