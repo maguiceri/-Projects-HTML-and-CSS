@@ -1,24 +1,38 @@
 .left{
-    background-color: grey;
+    background-color: rgb(97, 93, 93);
     color:white;
     padding:3rem;
+    display:flex;
+    flex-direction: column;
+    width:45%;
+    
+    text-align: right;
+    justify-content: center;
+    
 
     .title{
+        font-size:1.5rem;
+        
+        font-weight: 300;
 
     }
 
     .subtitle{
+        font-size:1rem;
+        font-weight: 200;
 
     }
 
     .post{
         display: inline-block;
+        margin-top:0.4rem;
         .button{
             display: inline-block;
-            background-color: grey;
+            background-color: rgb(97, 93, 93);
             color:white;
             font-size:0.7rem;
-            padding:0.5rem;
+            font-weight: 300;
+            padding:0.3rem 0.4rem;
             .pure{
 
             }

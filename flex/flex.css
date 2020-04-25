@@ -1,0 +1,16 @@
+.body{
+    display:flex;
+    align-items:flex-start;
+    
+}
+.right{
+    background-color: red;
+    
+    
+    
+   
+    
+        
+}
+
+.left{background-color: aqua;}

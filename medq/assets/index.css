@@ -1,24 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
 .left {
-  background-color: grey;
+  background-color: #615d5d;
   color: white;
   padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  text-align: right;
+  justify-content: center;
+}
+.left .title {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+.left .subtitle {
+  font-size: 1rem;
+  font-weight: 200;
 }
 .left .post {
   display: inline-block;
+  margin-top: 0.4rem;
 }
 .left .post .button {
   display: inline-block;
-  background-color: grey;
+  background-color: #615d5d;
   color: white;
   font-size: 0.7rem;
-  padding: 0.5rem;
+  font-weight: 300;
+  padding: 0.3rem 0.4rem;
 }
 .intro {
   position: relative;
 }
 .intro .header {
   color: #837676;
-  font-size: 0.9rem;
+  font-size: 0.7rem;
+}
+.intro .int .title {
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+}
+.intro .int .sub-title {
+  font-size: 0.7rem;
+  color: #837676;
 }
 .intro .int .post {
   display: inline-block;
@@ -26,7 +54,7 @@
 .intro .int .post .button {
   display: inline-block;
   color: white;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
 }
 .intro .int .post .button .css {
   background-color: green;
@@ -38,41 +66,81 @@
 }
 .intro .int .imagine {
   position: absolute;
-  left: 90%;
-  top: 20%;
+  left: 36rem;
+  top: 2.5rem;
   border-radius: 100%;
   width: 3rem;
   height: 3rem;
-  background-image: url(https://images.unsplash.com/photo-1497551060073-4c5ab6435f12?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+  background-image: url("https://images.unsplash.com/photo-1497551060073-4c5ab6435f12?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
   background-size: cover;
 }
+.intro .text {
+  font-family: "Noto Serif", serif;
+  font-size: 0.8rem;
+  line-height: 1.3rem;
+  font-weight: 400;
+}
 
+.everithing {
+  position: relative;
+}
 .everithing .header {
   color: #837676;
-  font-size: 0.9rem;
+  font-size: 0.7rem;
+}
+.everithing .title {
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+}
+.everithing .subtitle {
+  font-size: 0.7rem;
+  color: #837676;
 }
 .everithing .button {
   display: inline-block;
   color: white;
   padding: 0.3rem;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
 }
 .everithing .button .java {
   display: inline-block;
   padding: 0.2rem 0.7rem;
   background-color: red;
 }
+.everithing .image {
+  position: absolute;
+  border-radius: 100%;
+  left: 36rem;
+  top: 2.5rem;
+  width: 3rem;
+  height: 3rem;
+  background-image: url("https://images.unsplash.com/photo-1480455624313-e29b44bbfde1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+}
+.everithing .text {
+  font-family: "Noto Serif", serif;
+  font-size: 0.8rem;
+  line-height: 1.3rem;
+}
+
 .right {
   background-color: white;
   padding: 2rem;
 }
 
-.body .wrapper {
-  margin: 0 auto;
-  max-width: 60rem;
-  min-height: 10rem;
-  background-color: red;
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+.body {
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.body .wrapper {
+  max-width: 70%;
+  display: flex;
+  font-family: "Manrope", sans-serif;
 }
 
 /*# sourceMappingURL=index.css.map */

@@ -1,0 +1,21 @@
+.right{
+    
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    padding:0.5rem;
+    box-shadow: 0px 0px 40px rgb(179, 170, 170);
+    margin:2rem 2rem 2rem 0.5rem;
+
+    .head{
+        .myblog{
+            font-weight: 400;
+    }
+    }
+
+    .article{
+        .intro{}
+        .how{}
+    }
+    
+}

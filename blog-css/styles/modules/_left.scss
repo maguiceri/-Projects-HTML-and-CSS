@@ -1,0 +1,37 @@
+.left{
+    display:flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 40px  rgb(179, 170, 170);
+  
+    background-color: white;
+    margin:2rem 0.5rem 2rem 2rem;
+    
+    
+    .image{
+        background-image: url("https://images.unsplash.com/photo-1581869789733-fb985a04bbb7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+        background-size: cover;
+        height:10rem;
+        width:10rem;
+
+        
+    }
+    .text{
+        margin: 0 auto;
+
+    .name{
+        font-size: 1rem;
+        
+    }
+    .profession{
+        font-size:0.8rem;   
+    }
+    }
+    .icons{
+        display:flex;
+        justify-content: space-between;
+        background-color: red;
+        
+    }
+
+  
+}

@@ -1,0 +1,51 @@
+.left {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 40px #b3aaaa;
+  background-color: white;
+  margin: 2rem 0.5rem 2rem 2rem;
+}
+.left .image {
+  background-image: url("https://images.unsplash.com/photo-1581869789733-fb985a04bbb7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+  height: 10rem;
+  width: 10rem;
+}
+.left .name {
+  font-size: 1rem;
+}
+.left .profession {
+  font-size: 0.8rem;
+}
+.left .icons {
+  display: flex;
+  justify-content: space-between;
+  background-color: red;
+}
+
+.right {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  box-shadow: 0px 0px 40px #b3aaaa;
+  margin: 2rem 2rem 2rem 0.5rem;
+}
+
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.body .wrapper {
+  background-color: #eeeeee;
+  display: flex;
+  align-items: flex-start;
+  max-width: 60%;
+}
+
+/*# sourceMappingURL=index.css.map */
