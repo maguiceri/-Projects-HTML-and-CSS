@@ -3,15 +3,14 @@
     background-color: white;
     display:flex;
     flex-direction: column;
-    padding:0.5rem;
+    padding:1rem;
     box-shadow: 0px 0px 40px rgb(179, 170, 170);
     margin:2rem 2rem 2rem 0.5rem;
 
     .head{
-        padding:1.3rem 0rem;
+        padding-bottom: 1rem;
         font-style: italic;
         font-size: 1.3rem ;
-        
         font-weight: 900;
         border-bottom: 1px solid grey;
       }
@@ -23,15 +22,19 @@
         .intro{
 
                 .title{
+                    padding:0.5rem 0rem;
                     color:black;
                     font-weight: 900;
                     font-size:1.5rem;
                 }
                 .sub-title{
+                    display:inline-block;
+                    padding-bottom:0.5rem 0rem;
                     font-size: 0.8rem ;
                     font-weight: 900;
                 }
                 .text{
+                    padding:0.5rem 0rem;
                     font-size: 0.9rem ;
                     font-weight: 300;
                 }
@@ -48,19 +51,24 @@
         .how{
             color:grey;
                 .title{
+                    padding:0.5rem 0rem;
                     color:black;
                     font-weight: 900;
                     font-size:1.5rem;  
                 }
                 .sub-title{
+                    display:inline-block;
+                    padding-bottom:0.5rem;
                     font-size: 0.8rem;
                     font-weight: 900;   
                 }
                 .text{
+                    padding:0.5rem 0rem;
                     font-size: 0.9rem;
                     font-weight: 300;
                 }
                 .link{
+                    
                     font-size: 0.8rem;
                     font-weight: 900;
                     color:rgb(24, 224, 231);
