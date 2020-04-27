@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+@import"base/reset";
 *, *:after, *:before{
     box-sizing: border-box;
 }
@@ -13,24 +14,26 @@
     align-items: center;
 
     .article{
-        max-width:40rem; 
+        max-width:37rem; 
     
   
         .title{
             font-size:3rem;
-            color:grey;   
+            color:grey;  
+            display: inline-block;
+            margin-bottom: 1.5rem; 
         }
 
         .sub-title{
             color:gray;
             display: block;
-            margin-bottom: 3rem;
+            margin-bottom: 1.5rem;
         }
 
         .text{
             
             font-weight: 300;
-            margin-bottom: 4rem;
+            margin-bottom: 3rem;
             font-size: 1rem;
             color:gray;
         }
@@ -47,13 +50,13 @@
                     .on{
                         
                         background-color:red;
-                        padding: 1rem 2.7rem;
+                        padding: 0.5rem 2rem;
                         margin-right: 1rem;
                         
                     }
                     .leter{
                         background-color: grey;
-                        padding: 1rem 2.3rem;
+                        padding: 0.5rem 1.4rem;
                     } 
                 }
 
