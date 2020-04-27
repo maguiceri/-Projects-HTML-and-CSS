@@ -1,5 +1,6 @@
 @import"modules/left";
 @import"modules/right";
+@import"base/reset";
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
 
 *, *:after, *:before{
@@ -13,7 +14,7 @@
     
 .wrapper{
     width:100%;
-    max-width:47%;
+    max-width:46%;
     display:flex;
     overflow: hidden;
     border-radius: 1rem;
