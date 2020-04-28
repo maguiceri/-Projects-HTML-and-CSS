@@ -19,23 +19,24 @@
 
         .blue{
             display:flex;
-            background-color: blue;
+            background-color: rgb(106, 176, 223);
             min-height:8rem;
         }
 
         .grey{
             display:flex;
             flex-direction:column;
-            background-color: grey;
+            background-color: rgb(219, 217, 217);
             
 
             .content{
                 flex-direction:column;
                 display:flex;
-                max-width:25rem;
+                max-width:23rem;
                 background-color: white;
-                margin: -3rem 3rem 0rem 3rem;
+                margin: -4rem 3rem 0rem 3rem;
                 font-family: 'Manrope', sans-serif;
+                
                 
                 
                 .header{
@@ -45,19 +46,40 @@
                        
                        font-size:1.7rem;
                        text-align:center;
+                       margin-top:1rem;
                        margin-bottom:1.4rem;
                     }
                     .text{
-                        padding:1rem;
-                        
+                        padding-right:1rem;
+                        padding-left: 1rem;
+                        padding-bottom:1rem;
                     }
                     .image{
                         background-image: url(https://images.unsplash.com/uploads/141103282695035fa1380/95cdfeef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=974&q=80);
                         background-size: cover;
-                        min-width: 25rem;
+                        min-width: 23rem;
                         min-height: 20rem;
                         display:flex;
                         justify-content: center;
+                        position:relative;
+                        
+                        
+                        .log{
+                            
+                            position:absolute;
+                            
+                            top:50%;
+                            left:50%;
+                            transform: translate(-50%,-50%);
+                            .fa-play-circle{
+                                color:black;
+                                font-size: 9rem;
+                                font-style: 400;
+                                
+                            }
+
+                        }
+                      
                     }
                 }
                 .every{
@@ -104,7 +126,7 @@
                 
                 display:flex;
                 justify-content: center;
-                min-width:25rem;
+                min-width:23rem;
                 flex-direction: column;
                 margin: 0rem auto;
                 padding-top:1rem;

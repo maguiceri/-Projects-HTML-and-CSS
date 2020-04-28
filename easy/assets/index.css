@@ -66,20 +66,20 @@ table {
 }
 .body .wrapper .blue {
   display: flex;
-  background-color: blue;
+  background-color: #6ab0df;
   min-height: 8rem;
 }
 .body .wrapper .grey {
   display: flex;
   flex-direction: column;
-  background-color: grey;
+  background-color: #dbd9d9;
 }
 .body .wrapper .grey .content {
   flex-direction: column;
   display: flex;
-  max-width: 25rem;
+  max-width: 23rem;
   background-color: white;
-  margin: -3rem 3rem 0rem 3rem;
+  margin: -4rem 3rem 0rem 3rem;
   font-family: "Manrope", sans-serif;
 }
 .body .wrapper .grey .content .header {
@@ -89,18 +89,33 @@ table {
 .body .wrapper .grey .content .header .title {
   font-size: 1.7rem;
   text-align: center;
+  margin-top: 1rem;
   margin-bottom: 1.4rem;
 }
 .body .wrapper .grey .content .header .text {
-  padding: 1rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
 }
 .body .wrapper .grey .content .header .image {
   background-image: url(https://images.unsplash.com/uploads/141103282695035fa1380/95cdfeef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=974&q=80);
   background-size: cover;
-  min-width: 25rem;
+  min-width: 23rem;
   min-height: 20rem;
   display: flex;
   justify-content: center;
+  position: relative;
+}
+.body .wrapper .grey .content .header .image .log {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.body .wrapper .grey .content .header .image .log .fa-play-circle {
+  color: black;
+  font-size: 9rem;
+  font-style: 400;
 }
 .body .wrapper .grey .content .every .text {
   padding: 1rem;
@@ -135,7 +150,7 @@ table {
 .body .wrapper .grey .last {
   display: flex;
   justify-content: center;
-  min-width: 25rem;
+  min-width: 23rem;
   flex-direction: column;
   margin: 0rem auto;
   padding-top: 1rem;
