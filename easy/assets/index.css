@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;600&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.body .wrapper {
+  max-width: 33rem;
+  display: flex;
+  flex-direction: column;
+  font-size: 0.7rem;
+}
+.body .wrapper .blue {
+  display: flex;
+  background-color: blue;
+  min-height: 8rem;
+}
+.body .wrapper .grey {
+  display: flex;
+  flex-direction: column;
+  background-color: grey;
+}
+.body .wrapper .grey .content {
+  flex-direction: column;
+  display: flex;
+  max-width: 25rem;
+  background-color: white;
+  margin: -3rem 3rem 0rem 3rem;
+  font-family: "Manrope", sans-serif;
+}
+.body .wrapper .grey .content .header {
+  display: flex;
+  flex-direction: column;
+}
+.body .wrapper .grey .content .header .title {
+  font-size: 1.7rem;
+  text-align: center;
+  margin-bottom: 1.4rem;
+}
+.body .wrapper .grey .content .header .text {
+  padding: 1rem;
+}
+.body .wrapper .grey .content .header .image {
+  background-image: url(https://images.unsplash.com/uploads/141103282695035fa1380/95cdfeef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=974&q=80);
+  background-size: cover;
+  min-width: 25rem;
+  min-height: 20rem;
+  display: flex;
+  justify-content: center;
+}
+.body .wrapper .grey .content .every .text {
+  padding: 1rem;
+}
+.body .wrapper .grey .content .brand {
+  padding: 1rem;
+}
+.body .wrapper .grey .content .brand .title {
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+.body .wrapper .grey .content .brand .text {
+  margin-bottom: 0.5rem;
+}
+.body .wrapper .grey .content .white {
+  padding: 1rem;
+}
+.body .wrapper .grey .content .white .title {
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.body .wrapper .grey .content .improved {
+  padding: 1rem;
+}
+.body .wrapper .grey .content .improved .title {
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.body .wrapper .grey .last {
+  display: flex;
+  justify-content: center;
+  min-width: 25rem;
+  flex-direction: column;
+  margin: 0rem auto;
+  padding-top: 1rem;
+}
+.body .wrapper .grey .last .need {
+  padding: 1.5rem;
+  text-align: center;
+  background-color: lightblue;
+}
+.body .wrapper .grey .last .need .title {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 1rem;
+  padding-bottom: 0.3rem;
+}
+.body .wrapper .grey .last .need .link {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.body .wrapper .grey .last .links {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.body .wrapper .grey .last .links .lin {
+  color: black;
+}
+
+/*# sourceMappingURL=index.css.map */
