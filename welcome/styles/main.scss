@@ -1,0 +1,184 @@
+@import"base/reset";
+
+
+*, *:after, *:before{
+    box-sizing: border-box;
+}
+.body{
+    display:flex;
+    justify-content: center;
+    background-color: rgb(211, 209, 209);
+    width:100%;
+
+    .wrapper{
+        display:flex;
+        flex-direction:column;
+        max-width:35rem;
+        .head{
+            text-align: center;
+            padding-top:1rem;
+            padding-bottom:1rem;
+            background-color: black;
+            .vision{
+                color:white;
+                font-size:0.7rem;
+            }
+        }
+
+        .welcome{
+            background-image: url("https://images.unsplash.com/photo-1544891459-cf0d5d4b08e6?ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80");
+            background-size: cover;
+            color:white;
+            text-align:center;
+            padding: 2rem;
+           
+            .title{
+                font-weight: bold;
+                font-size: 2rem;
+                margin-bottom: 1rem; 
+            }
+            .sub-title{
+                color:grey;
+                font-size: 0.7rem;
+                margin-bottom: 1rem;   
+            }
+            .button{
+                font-size:0.8rem;
+                background-color: rgb(72, 203, 247);
+                display: inline-block;
+                border-radius: 23%;
+                padding:0.5rem;
+                font-weight: bold;
+                .access{
+                    
+                    
+                }
+            }
+        }
+        .your{
+            padding:1rem;
+            background-color: white;
+            color:black;
+            .title{
+                font-weight: bold;
+                margin-bottom:1rem;
+            }
+            .text{
+                
+                margin-bottom:1rem;
+            }
+            .textt{
+                margin-bottom:1rem;
+            }
+            .span{}
+
+            .im{
+                
+                display:flex;
+                margin-top:1rem;
+                margin-bottom:1rem;
+                    
+                .image{
+                    border-radius:100%;
+                    background-image: url("https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+                    background-size: cover;
+                    width: 4.5rem;
+                    height:4.5rem;
+                    margin-right: 1rem;
+                }
+                .text{
+                    
+                    display:flex;
+                    flex-direction: column;
+                    margin-top: 1.1rem;
+                    
+                    .name{
+                        font-weight: bold; 
+                    }
+                    .ceo{
+                       
+                    }
+                }
+
+            }
+        }
+
+        .blue{
+            padding:1rem;
+            background-color: rgb(54, 195, 241);
+            text-align: center;
+            .title{
+                color:white;
+                font-weight: bold; 
+                margin-bottom: 1rem;
+            }
+            .sub-title{
+                display: inline-block;
+                margin-bottom: 1rem;
+                
+            }
+            .button{
+                margin-right:11rem;
+                margin-left:11rem;
+                background-color: white;
+                padding-top: 0.5rem;
+                padding-bottom: 0.5rem;
+                border-radius:20%;
+            }
+            .give{
+                color: rgb(54, 195, 241);
+                font-weight: bold;
+            }
+
+        }
+
+        
+            .icons{
+                padding:1rem;
+                display:flex;
+                justify-content: center;
+                
+                background-color: black;
+                font-size: 0.7rem;
+                
+                
+                .fa-facebook-f{
+                    background-color: white;
+                    border-radius: 100%;
+                    padding:0.5rem;
+                    margin-right:0.3rem;
+                }
+                .fa-instagram{
+                    background-color: white;
+                    border-radius: 100%;
+                    padding:0.5rem;
+                    margin-right:0.3rem;
+                }
+                .fa-twitter{
+                    background-color: white;
+                    border-radius: 100%;
+                    padding:0.5rem;
+                    margin-right:0.3rem;
+                }
+                .fa-linkedin-in{
+                    background-color: white;
+                    border-radius: 100%;
+                    padding:0.5rem;
+                }
+            }
+        
+
+        .tags{
+            background-color:rgb(211, 209, 209);
+            display:flex;
+            flex-direction:column;
+            text-align: center;
+            padding: 3rem;
+            .company{
+                margin-bottom:1rem;
+            }
+            .mail{}
+        }
+
+    }
+}
