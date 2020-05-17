@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>que onda</title>
+        
+    </head>
+
+    <body>
+
+    <script>
+
+        const tarjetas = [
+        {
+        CardName:"visa",
+        installments:[1,3,6,9,12,15,18],
+        },
+        {
+        CardName:"mastercard",
+        installments:[1,3,6],
+        },
+        {
+        CardName:"amex",
+        installments:[1, 3],
+        },
+    ];
+    
+    let card="mastercard";
+    
+    console.log("la tarjeta seleccionada es: " +card);
+    
+    let selectedCard;
+    
+    for(let i=0; i < tarjetas.length; i++) {
+
+        const currentCard = tarjetas[i];
+        
+        if (currentCard.CardName == card){
+
+            selectedCard=currentCard;
+            console.log(selectedCard);
+        }
+    }
+
+    if (selectedCard != undefined) {
+
+        console.log(selectedCard.installments[0]);
+        
+        for (let i=0; i<selectedCard.installments.length; i++) {
+            
+            const installment = selectedCard.intallments[i];
+            console.log(installment);
+        }
+
+    } else {
+
+        console.log("la tarjeta " +card+ " no forma parte del diccionario ");
+        console.log("una cuota sin interes");
+    }
+
+    </script>
+    
+    </body>
+
+    </html>

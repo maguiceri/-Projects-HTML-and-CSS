@@ -1,0 +1,10 @@
+.box{
+    width:100px;
+    height:100px;
+    background-color: rgb(192, 59, 81);
+    transition: background-color 0.3s easi-in-out;
+}
+
+.box.over{
+    background-color: rgb(88, 189, 155);
+}
