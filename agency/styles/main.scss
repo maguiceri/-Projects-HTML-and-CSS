@@ -1,5 +1,5 @@
 @import"base/reset";
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
 
 *, *:after, *:before{
     box-sizing: border-box;
@@ -8,7 +8,8 @@
     display:flex;
     justify-content: center;
     align-items: center;
-
+    font-family: 'Roboto', sans-serif;
+    
         .article{
             max-width:35rem;
             display:flex;
