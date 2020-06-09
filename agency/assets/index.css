@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -56,6 +57,7 @@ table {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "Roboto", sans-serif;
 }
 .body .article {
   max-width: 35rem;
@@ -63,57 +65,104 @@ table {
   justify-content: center;
   flex-direction: column;
 }
-.body .article .text {
+.body .article .head {
   text-align: center;
+}
+.body .article .head .title {
+  margin-top: 1rem;
+  display: inline-block;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.body .article .head .sub-title {
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+.body .article .head .sub-title .functional {
+  text-decoration: none;
+  font-weight: bold;
+}
+.body .article .head .sub-title .beautiful {
+  text-decoration: none;
+  font-weight: bold;
 }
 .body .article .wrapper {
   display: flex;
   flex-direction: column;
 }
-.body .article .wrapper .content {
-  background-color: red;
+.body .article .wrapper .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.body .article .wrapper .text .proyects {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+.body .article .wrapper .text .description {
+  text-align: center;
+}
+.body .article .wrapper .boxes {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   width: 100%;
 }
-.body .article .wrapper .content .box {
+.body .article .wrapper .boxes .box {
   display: flex;
   width: calc(100%/2);
-  background-color: green;
   flex-grow: 0;
   flex-direction: column;
   padding: 1rem;
 }
-.body .article .wrapper .content .box .image {
+.body .article .wrapper .boxes .box .image {
   background-image: url("https://images.unsplash.com/photo-1517502884422-41eaead166d4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=625&q=80");
   background-size: cover;
   height: 10rem;
 }
-.body .article .wrapper .content .box .text {
+.body .article .wrapper .boxes .box .image-description {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
-.body .article .wrapper .content .box {
+.body .article .wrapper .boxes .box .image-description .work {
+  font-weight: bold;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+.body .article .wrapper .boxes .box {
   display: flex;
 }
-.body .article .wrapper .content .box .image {
+.body .article .wrapper .boxes .box .image {
   background-image: url("https://images.unsplash.com/photo-1517502884422-41eaead166d4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=625&q=80");
   background-size: cover;
 }
-.body .article .wrapper .content .box {
+.body .article .wrapper .boxes .box {
   display: flex;
 }
-.body .article .wrapper .content .box .image {
+.body .article .wrapper .boxes .box .image {
   background-image: url("https://images.unsplash.com/photo-1517502884422-41eaead166d4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=625&q=80");
   background-size: cover;
 }
-.body .article .wrapper .content .box {
+.body .article .wrapper .boxes .box {
   display: flex;
 }
-.body .article .wrapper .content .box .image {
+.body .article .wrapper .boxes .box .image {
   background-image: url("https://images.unsplash.com/photo-1517502884422-41eaead166d4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=625&q=80");
   background-size: cover;
+}
+@media (max-width: 600px) {
+  .body .article .boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
