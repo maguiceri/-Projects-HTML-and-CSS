@@ -5,15 +5,10 @@ body{
 }
 
 .main {
-    
     display: flex;
     flex-direction: column;
     font-family: 'Open sans';
-    height:100vh;
-    
-    
-    
-    
+    height:100vh;  
     }
     
     .header{
@@ -23,15 +18,9 @@ body{
         justify-content: center;
     }
     
-    .articles-wrapper{
-        
+    .articles-wrapper{  
         display: flex; 
-        flex-grow: 1;
-        
-
-        
-        
-        
+        flex-grow: 1;   
     }
     
     .articles-wrapper .article{
@@ -39,8 +28,6 @@ body{
         flex-direction: column;
         padding: 15px;
         align-items: stretch;
-        
-    
     }
     
     .article .article-date{
@@ -83,4 +70,12 @@ body{
 
     .articles-wrapper .article:nth-child(5){
         background-color: #B5EAD7;
+    }
+
+
+    @media (max-width:600px){
+        .articles-wrapper{
+            display:flex;
+            flex-direction:column;
+        }
     }
