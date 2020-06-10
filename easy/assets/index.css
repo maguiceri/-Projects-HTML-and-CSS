@@ -93,6 +93,7 @@ table {
   margin-bottom: 1.4rem;
 }
 .body .wrapper .grey .content .header .text {
+  text-align: center;
   padding-right: 1rem;
   padding-left: 1rem;
   padding-bottom: 1rem;
