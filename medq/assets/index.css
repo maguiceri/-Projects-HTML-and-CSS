@@ -9,17 +9,20 @@
   padding: 3rem;
   display: flex;
   flex-direction: column;
-  width: 45%;
   text-align: right;
   justify-content: center;
+  width: 25rem;
 }
 .left .title {
   font-size: 1.5rem;
   font-weight: 300;
+  margin-bottom: 1rem;
 }
 .left .subtitle {
+  display: inline-block;
   font-size: 1rem;
   font-weight: 200;
+  margin-bottom: 0.5rem;
 }
 .left .post {
   display: inline-block;
@@ -43,10 +46,13 @@
 .intro .int .title {
   font-family: "Manrope", sans-serif;
   font-weight: 700;
+  margin-bottom: 0.5rem;
 }
 .intro .int .sub-title {
+  display: inline-block;
   font-size: 0.7rem;
   color: #837676;
+  margin-bottom: 1rem;
 }
 .intro .int .post {
   display: inline-block;
@@ -66,8 +72,8 @@
 }
 .intro .int .imagine {
   position: absolute;
-  left: 36rem;
-  top: 2.5rem;
+  left: 39rem;
+  top: 2rem;
   border-radius: 100%;
   width: 3rem;
   height: 3rem;
@@ -79,6 +85,7 @@
   font-size: 0.8rem;
   line-height: 1.3rem;
   font-weight: 400;
+  margin-bottom: 1rem;
 }
 
 .everithing {
@@ -91,10 +98,13 @@
 .everithing .title {
   font-family: "Manrope", sans-serif;
   font-weight: 700;
+  margin-bottom: 0.5rem;
 }
 .everithing .subtitle {
+  display: inline-block;
   font-size: 0.7rem;
   color: #837676;
+  margin-bottom: 1rem;
 }
 .everithing .button {
   display: inline-block;
@@ -110,8 +120,8 @@
 .everithing .image {
   position: absolute;
   border-radius: 100%;
-  left: 36rem;
-  top: 2.5rem;
+  left: 39rem;
+  top: 2rem;
   width: 3rem;
   height: 3rem;
   background-image: url("https://images.unsplash.com/photo-1480455624313-e29b44bbfde1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
@@ -121,11 +131,62 @@
   font-family: "Noto Serif", serif;
   font-size: 0.8rem;
   line-height: 1.3rem;
+  margin-bottom: 1rem;
 }
 
 .right {
   background-color: white;
   padding: 2rem;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 *, *:after, *:before {

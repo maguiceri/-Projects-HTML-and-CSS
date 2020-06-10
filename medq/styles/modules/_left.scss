@@ -4,40 +4,40 @@
     padding:3rem;
     display:flex;
     flex-direction: column;
-    width:45%;
-    
     text-align: right;
     justify-content: center;
-    
-
+    width:25rem;
     .title{
-        font-size:1.5rem;
-        
+        font-size:1.5rem;   
         font-weight: 300;
-
+        margin-bottom:1rem;
     }
 
     .subtitle{
+        display:inline-block;
         font-size:1rem;
         font-weight: 200;
-
+        margin-bottom:0.5rem;
     }
 
     .post{
         display: inline-block;
         margin-top:0.4rem;
+
         .button{
-            display: inline-block;
+            
+            display:inline-block;
             background-color: rgb(97, 93, 93);
             color:white;
             font-size:0.7rem;
             font-weight: 300;
             padding:0.3rem 0.4rem;
+            
             .pure{
-
+               
             }
             .library{
-
+                
             }
         }
     }
