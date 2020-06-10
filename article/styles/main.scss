@@ -15,7 +15,7 @@
 
     .article{
         max-width:37rem; 
-    
+        padding:1rem;
   
         .title{
             font-size:3rem;
@@ -38,7 +38,7 @@
             color:gray;
         }
 
-        .post{
+        .buttons{
             display:flex;
             justify-content: flex-end;
 
@@ -47,8 +47,7 @@
                     color:white;
                     
 
-                    .on{
-                        
+                    .on{   
                         background-color:red;
                         padding: 0.5rem 2rem;
                         margin-right: 1rem;

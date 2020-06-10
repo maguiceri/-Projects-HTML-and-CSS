@@ -1,7 +1,8 @@
+
+@import"./base/reset";
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
 @import"modules/left";
 @import"modules/right";
-@import"base/reset";
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
 
 *, *:after, *:before{
     box-sizing: border-box;
@@ -13,8 +14,8 @@
     background-color: white;
     
 .wrapper{
-    width:100%;
-    max-width:46%;
+
+    width:40rem;
     display:flex;
     overflow: hidden;
     border-radius: 1rem;
@@ -22,6 +23,7 @@
     background-color: white;
     color:rgb(133, 122, 122);
     font-family: 'Manrope', sans-serif;
-    font-style: italic;   
+    font-style: italic;  
+
 }
 }
