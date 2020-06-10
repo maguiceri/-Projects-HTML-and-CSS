@@ -84,6 +84,7 @@ table {
   font-weight: bold;
   font-size: 2rem;
   margin-bottom: 1rem;
+  opacity: 80%;
 }
 .body .wrapper .welcome .sub-title {
   color: grey;
