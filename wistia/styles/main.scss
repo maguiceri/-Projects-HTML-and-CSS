@@ -16,10 +16,10 @@
         flex-direction:column;
         max-width:50rem;
         position:relative;
-        background-color:red;
         .intro{ 
+            color:white;
             padding:1rem;
-
+            background-color: rgb(10, 153, 189);
                 .head{
                     display:flex;
                     .icon{
@@ -27,8 +27,8 @@
                         margin-right:77%;
                         display:flex;
                         .logo{
-                            
                             font-size:2rem;
+                            margin-right:0.3rem;
                         }
                         .wistia{
                            
@@ -36,8 +36,12 @@
                     }
                     .button{
                         display:inline-block;
+                        
                         .loggin{
+                            color:white;
+                            border: 1px solid white;
                             padding:0.5rem;
+                            background-color: rgb(10, 153, 189);
                         }
                     }
                 }
@@ -64,25 +68,35 @@
                    
                     .button-short{
                         display:flex;
-                        flex-wrap: wrap;     
+                        flex-wrap: wrap; 
+                        justify-content:center; 
+                        
                         .info-form{
                             margin: 10px;
-                            border: 1px solid black;
-                            background-color: white;
+                            border:none;
+                            background-color: white;                          
                             width: calc(50% - 20px);
-                            height: calc(100%/2);
+                            //height: calc(100%/2);
                             padding:1rem;
+  
                         }
                     }
                     .button-large{
                         display:flex;
                         flex-direction: column;
-                        background-color: white;
-                        margin: 10px;
+                        
+                        justify-content:center; 
                         .butt{
-                            
+                            margin: 10px;
+                            width: calc(100% - 20px);
                             padding:1rem;
-                            border: 1px solid black;
+                            border:none;
+                            //border: 1px solid black;
+
+                            .blue{
+                                color:white;
+                                background-color: rgb(69, 69, 194);
+                            }
                   
                         }
 
@@ -97,7 +111,8 @@
                         font-weight:bold;
                         
                         .link{
-                            text-decoration:none;
+                            color:white;
+                            
                         }
                     }
 
