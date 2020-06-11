@@ -1,7 +1,34 @@
-.is-there{
+.last{
     display:flex;
-   background-color: white;
-}
-.are-there{
-    background-color: white;
-}
+    flex-direction:column;
+    padding:1rem;
+        .is-there{
+            display:flex;
+            background-color: white;
+            .is{
+                .title{
+                    font-weight:bold;
+                }
+                .text{}
+            }
+
+            .do{
+                .title{
+                    font-weight:bold;
+                }
+                .text{}
+            }
+
+            }
+        .are-there{
+            background-color: white;
+
+                .are{
+                    .title{
+                        font-weight:bold;
+                    }
+                    .text{}
+                }
+            }
+
+}   

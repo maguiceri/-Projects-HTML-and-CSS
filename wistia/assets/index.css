@@ -48,15 +48,27 @@ table {
   border-spacing: 0;
 }
 
-.is-there {
+.last {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+.last .is-there {
   display: flex;
   background-color: white;
 }
-
-.are-there {
+.last .is-there .is .title {
+  font-weight: bold;
+}
+.last .is-there .do .title {
+  font-weight: bold;
+}
+.last .are-there {
   background-color: white;
 }
-
+.last .are-there .are .title {
+  font-weight: bold;
+}
 *, *:after, *:before {
   box-sizing: border-box;
 }
@@ -70,48 +82,77 @@ table {
 .body .wrapper {
   display: flex;
   flex-direction: column;
-  max-width: 40rem;
-  background-color: red;
+  max-width: 50rem;
   position: relative;
+  background-color: red;
 }
-.body .wrapper .icon {
+.body .wrapper .intro {
+  padding: 1rem;
+}
+.body .wrapper .intro .head {
+  display: flex;
+}
+.body .wrapper .intro .head .icon {
+  font-size: 2rem;
+  margin-right: 77%;
+  display: flex;
+}
+.body .wrapper .intro .head .icon .logo {
   font-size: 2rem;
 }
-.body .wrapper .button {
+.body .wrapper .intro .head .button {
   display: inline-block;
-  padding: 0.5rem;
-  border: 1px solid white;
 }
-.body .wrapper .sign {
+.body .wrapper .intro .head .button .loggin {
+  padding: 0.5rem;
+}
+.body .wrapper .intro .sign {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
 }
-.body .wrapper .sign .title {
+.body .wrapper .intro .sign .title {
+  display: inline-block;
+  margin-bottom: 1rem;
   font-size: 2rem;
 }
-.body .wrapper .form {
-  max-width: 25rem;
+.body .wrapper .intro .form {
+  max-width: 30rem;
   margin: 0 auto;
-  background-color: green;
 }
-.body .wrapper .form .button-short {
+.body .wrapper .intro .form .button-short {
   display: flex;
   flex-wrap: wrap;
 }
-.body .wrapper .form .button-short .button {
+.body .wrapper .intro .form .button-short .info-form {
+  margin: 10px;
   border: 1px solid black;
   background-color: white;
-  width: calc(100%/2);
+  width: calc(50% - 20px);
   height: calc(100%/2);
+  padding: 1rem;
 }
-.body .wrapper .form .button-large {
+.body .wrapper .intro .form .button-large {
   display: flex;
   flex-direction: column;
   background-color: white;
+  margin: 10px;
 }
-.body .wrapper .form .button-large .button {
+.body .wrapper .intro .form .button-large .butt {
+  padding: 1rem;
   border: 1px solid black;
+}
+.body .wrapper .intro .text {
+  margin-top: 1rem;
+  text-align: center;
+}
+.body .wrapper .intro .text .by {
+  font-weight: bold;
+}
+.body .wrapper .intro .text .by .link {
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=index.css.map */
