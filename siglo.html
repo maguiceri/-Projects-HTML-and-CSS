@@ -1,0 +1,41 @@
+<html>
+<head>
+    <title>Siglo</title>
+</head>
+
+
+<body>
+
+<script>
+
+function whichCentury(num) { 
+
+        if(typeof num =="number"){
+
+                if (num<=2000){
+                    let str = num.toString();
+                    let len = str.lenght;
+                    let siglo = str.slice(0, (len-2));
+                    console.log(str);
+                }
+                else{
+                        console.log("ingrese");
+                }
+        
+        }
+            
+        else{
+                console.log("Debe ingresar un año");
+        }
+
+
+}
+
+console.log( whichCentury(1645) );
+
+</script>
+    
+</body>
+
+</html>
+  

@@ -15,3 +15,5 @@ if(typeof num=="number"){
 else{
     console.log("debe ingresar un numero");
 }
+
+}
