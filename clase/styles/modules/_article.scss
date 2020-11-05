@@ -1,5 +1,5 @@
 @import"article-image";
-@import usrl('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 
 .article{ 
@@ -13,7 +13,7 @@
                 .page-title{
                     color: #444;
                     font-size: 3em;
-                    font-family: 'courier new', courier, monospace;
+                    font-family: 'Montserrat', sans-serif;
                     text-align: center;
                     padding-top: 1rem;
                 }
