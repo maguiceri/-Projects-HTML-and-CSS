@@ -14,31 +14,28 @@
 }
 @media (max-width: 600px) {
   .left .image {
-    max-height: 20rem;
     max-width: 20rem;
+    max-height: 20rem;
   }
 }
 .left .text {
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
-  padding: 2rem;
   text-align: center;
 }
 .left .text .name {
   font-size: 1rem;
-  padding-bottom: 0.5rem;
+  padding: 1.3rem 0rem;
 }
 .left .text .profession {
-  border-bottom: 1px dotted black;
+  width: 100%;
+  margin-bottom: 1.2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px dotted #949292;
   font-weight: 400;
   display: inline-block;
   color: #949292;
-  margin-top: 0.5rem;
   font-size: 0.7rem;
-}
-.left .line {
-  color: black;
 }
 .left .icons {
   display: flex;
@@ -54,7 +51,6 @@
   background-color: white;
   display: flex;
   flex-direction: column;
-  padding: 1rem;
   box-shadow: 0px 0px 40px #b3aaaa;
   margin: 2rem 2rem 2rem 0.5rem;
 }
@@ -64,9 +60,9 @@
   }
 }
 .right .head {
-  padding-bottom: 1rem;
+  padding: 1rem;
   font-size: 1rem;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px dotted #949292;
 }
 @media (max-width: 600px) {
   .right .head {
@@ -75,6 +71,7 @@
 }
 .right .article {
   color: grey;
+  padding: 1rem;
 }
 .right .article .intro {
   font-size: 0.7rem;
