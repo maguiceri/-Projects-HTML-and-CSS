@@ -1,28 +1,28 @@
 @import"modules/left";
 @import"modules/right";
 @import"base/reset";
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,300;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,300;1,600&family=Roboto:wght@400;500&display=swap');
 
 
 *, *:after, *:before{
     box-sizing: border-box;
 }
-
 .body{
     display:flex;
     justify-content: center;
     align-items: center;
-    
-    
     .wrapper{
-        background-color:rgb(238, 238, 238);
+        background-color:rgb(236, 235, 235);
         display:flex;
         align-items: flex-start;
         max-width: 40rem;
         font-family: 'Roboto', sans-serif;
-        overflow:hidden;
-       
+        font-weight: 500;
+        overflow:hidden;   
+
+        @media (max-width: 600px){
+            display:flex;
+            flex-direction: column;
+        }
     }
 }

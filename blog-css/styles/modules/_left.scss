@@ -1,48 +1,51 @@
 .left{
-    
     display:flex;
     flex-direction: column;
     box-shadow: 0px 0px 40px  rgb(179, 170, 170);
     background-color: white;
     margin:2rem 0.5rem 2rem 2rem;
-    
-    
-                    .image{
-                        background-image: url("https://images.unsplash.com/photo-1581869789733-fb985a04bbb7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
-                        background-size: cover;
-                        height:10rem;
-                        width:10rem;   
-                    }
-                    .text{
-                        display:flex;
-                        flex-direction:column;
-                        margin:0 auto;
-                        padding:2rem;
+        .image{
+            background-image: url("https://images.unsplash.com/photo-1581869789733-fb985a04bbb7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+            background-size: cover;
+            height: 10rem; 
+            width:10rem;
+            @media (max-width: 600px){
+            max-height: 20rem; 
+            max-width: 20rem;   
+            }
+        }
+        .text{
+            display:flex;
+            flex-direction:column;
+            margin:0 auto;
+            padding:2rem;
+            text-align:center;
 
-                        .name{
-                            display:flex;
-                            text-align:center;
-                            font-size: 1rem;
-                            font-weight: 900;
-                            font-style: italic;
-                            padding-bottom: 0.5rem; 
-                        }
+            .name{
+                font-size: 1rem;
+                padding-bottom: 0.5rem; 
+            }
+            .profession{
+                border-bottom: 1px dotted black;
+                font-weight: 400;
+                display: inline-block;
+                color:rgb(148, 146, 146);
+                margin-top: 0.5rem;
+                font-size:0.7rem; 
+            }
+        }  
+        .line{
+          color:black;
+        }
+        .icons{
+            display:flex;
+            justify-content: space-between;                
+        } 
 
-                        .profession{
-                            display: inline-block;
-                            display:flex;
-                            text-align:center;
-                            margin-top: 0.5rem;
-                            font-size:0.8rem;   
-                        }
+        @media (max-width: 600px){
+          margin: 1rem auto;
+          }
 
-                    }
-        
-                    .icons{
-                        display:flex;
-                        justify-content: space-between;
-                        
-                    }
 
-  
+
 }

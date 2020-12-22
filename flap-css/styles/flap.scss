@@ -1,3 +1,5 @@
+@import"base/reset";
+
 *, *:after, *::before{
     box-sizing: border-box;
 }
@@ -13,35 +15,37 @@ background-color: cornflowerblue;
 position:relative;
 margin-top:100px;
 padding:20px;
-}
 
-.box:nth-child(2n){
+&:nth-child(2n){
     background-color: coral;
 }
-.box:hover{
+&:hover{
     background-color: cyan;
 }
-.box:active{
+&:active{
     background-color: green;
 }
-.box:before,.box:after{
+.box:before,:after{
     position:absolute;
     background-color: cyan;
     padding:5px;
     display:none;
     left:0;
+    &:before{
+        content:"hola mundo";
+        bottom:100%;   
+     }
+    &:after{
+        content:"que onda";
+        top:100%;   
+    }
 }
-.box:before{
-   content:"hola mundo";
-   bottom:100%;   
-}
-.box:after{
-    content:"que onda";
-    top:100%;   
-}
-.box:hover:before{
+
+&:hover:before{
     display:block;
 }
-.box:hover:after{
-    display:block;
+
+
 }
+
+

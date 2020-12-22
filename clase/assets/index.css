@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,300;1,600&family=Roboto:ital,wght@0,500;1,300&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -49,14 +50,15 @@ table {
 }
 
 .article-image .post-article {
-  margin: 2em auto;
-  border: 1px solid #444444;
-  padding: 1.8em 2em;
+  border: 1px solid #eee;
+  padding: 1.8rem 2rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 .article-image .post-article .post-title {
+  font-style: italic;
+  font-weight: 600;
   color: #444;
-  font-size: 2.2em;
-  margin: 0;
+  font-size: 2.2rem;
 }
 .article-image .post-article .image-content {
   display: block;
@@ -66,50 +68,59 @@ table {
   border: #ddd solid 0;
 }
 .article-image .post-article .info {
-  font-family: sans-serif;
   color: grey;
-  margin-right: 1em;
+  font-style: italic;
   font-weight: 600;
 }
-
+.article-image .post-article .info .time {
+  margin-right: 1rem;
+}
+.article-image .post-article .info .author {
+  margin-right: 1rem;
+}
 .article {
-  display: flex;
-  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
   max-width: 50rem;
 }
 .article .art .head .page-title {
-  color: #444;
-  font-size: 3em;
-  font-family: "courier new", courier, monospace;
+  color: #353434;
+  font-size: 3rem;
+  font-weight: 700;
   text-align: center;
   padding-top: 1rem;
 }
 .article .art .article-post .post-article {
-  margin: 2em auto;
-  border: 1px solid #444444;
-  padding: 1.8em 2em;
+  margin: 2rem auto;
+  border: 1px solid #eee;
+  padding: 1.8rem 2rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 .article .art .article-post .post-article .post-title {
+  font-style: italic;
+  font-weight: 600;
   padding-bottom: 1rem;
   color: #444;
-  font-size: 2.2em;
-  margin: 0;
+  font-size: 2.2rem;
 }
 .article .art .article-post .post-article .text-content {
-  font-family: sans-serif;
-  font-size: 1.2em;
-  line-height: 1.8em;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
   color: grey;
-  margin-bottom: 1.2em;
-  font-weight: 100;
+  margin-bottom: 1.2rem;
 }
 .article .art .article-post .post-article .info {
-  font-family: sans-serif;
   color: grey;
-  margin-right: 1em;
+  font-style: italic;
   font-weight: 600;
 }
-
+.article .art .article-post .post-article .info .time {
+  margin-right: 1rem;
+}
+.article .art .article-post .post-article .info .author {
+  margin-right: 1rem;
+}
 *, *:after, *:before {
   box-sizing: border-box;
 }

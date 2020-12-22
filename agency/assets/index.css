@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -56,8 +56,7 @@ table {
 .body {
   display: flex;
   justify-content: center;
-  align-items: center;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .body .article {
   max-width: 35rem;
@@ -70,24 +69,20 @@ table {
 }
 .body .article .head .title {
   margin-top: 1rem;
-  display: inline-block;
-  font-weight: bold;
-  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 5rem;
   display: flex;
   justify-content: center;
-  flex-direction: column;
 }
 .body .article .head .sub-title {
-  display: inline-block;
-  margin-bottom: 2rem;
+  font-size: 1.3rem;
+  line-height: 2rem;
+  margin-bottom: 5rem;
 }
-.body .article .head .sub-title .functional {
-  text-decoration: none;
-  font-weight: bold;
-}
-.body .article .head .sub-title .beautiful {
-  text-decoration: none;
-  font-weight: bold;
+.body .article .head .sub-title .link {
+  color: blue;
+  font-weight: 500;
 }
 .body .article .wrapper {
   display: flex;
@@ -100,13 +95,18 @@ table {
   text-align: center;
 }
 .body .article .wrapper .text .proyects {
+  font-size: 1.7rem;
   display: flex;
   justify-content: center;
-  font-weight: bold;
+  font-weight: 500;
   margin-bottom: 2rem;
 }
 .body .article .wrapper .text .description {
   text-align: center;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: grey;
+  margin-bottom: 2rem;
 }
 .body .article .wrapper .boxes {
   display: flex;
@@ -132,30 +132,18 @@ table {
   align-items: center;
 }
 .body .article .wrapper .boxes .box .image-description .work {
-  font-weight: bold;
+  font-weight: 500;
   margin-top: 0.5rem;
   margin-bottom: 1rem;
 }
 .body .article .wrapper .boxes .box {
   display: flex;
 }
-.body .article .wrapper .boxes .box .image {
-  background-image: url("https://images.unsplash.com/photo-1517502884422-41eaead166d4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=625&q=80");
-  background-size: cover;
-}
 .body .article .wrapper .boxes .box {
   display: flex;
 }
-.body .article .wrapper .boxes .box .image {
-  background-image: url("https://images.unsplash.com/photo-1517502884422-41eaead166d4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=625&q=80");
-  background-size: cover;
-}
 .body .article .wrapper .boxes .box {
   display: flex;
-}
-.body .article .wrapper .boxes .box .image {
-  background-image: url("https://images.unsplash.com/photo-1517502884422-41eaead166d4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=625&q=80");
-  background-size: cover;
 }
 @media (max-width: 600px) {
   .body .article .boxes {
