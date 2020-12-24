@@ -20,7 +20,7 @@
         font-weight: 500;
         overflow:hidden;   
 
-        @media (max-width: 600px){
+        @media (max-width: 600px){ //media queries standard size 
             display:flex;
             flex-direction: column;
         }

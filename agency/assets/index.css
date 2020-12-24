@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -59,6 +59,7 @@ table {
   font-family: "Montserrat", sans-serif;
 }
 .body .article {
+  font-weight: 400;
   max-width: 35rem;
   display: flex;
   justify-content: center;
@@ -69,20 +70,21 @@ table {
 }
 .body .article .head .title {
   margin-top: 1rem;
-  font-size: 2rem;
-  font-weight: 500;
-  margin-bottom: 5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
   display: flex;
   justify-content: center;
 }
 .body .article .head .sub-title {
   font-size: 1.3rem;
   line-height: 2rem;
-  margin-bottom: 5rem;
+  margin-bottom: 1.5rem;
+  font-weight: 400;
 }
 .body .article .head .sub-title .link {
   color: blue;
-  font-weight: 500;
+  font-weight: 600;
 }
 .body .article .wrapper {
   display: flex;
@@ -95,24 +97,23 @@ table {
   text-align: center;
 }
 .body .article .wrapper .text .proyects {
-  font-size: 1.7rem;
+  font-size: 1.3rem;
   display: flex;
   justify-content: center;
   font-weight: 500;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 .body .article .wrapper .text .description {
   text-align: center;
   font-size: 1rem;
   line-height: 1.5rem;
   color: grey;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 .body .article .wrapper .boxes {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 100%;
 }
 .body .article .wrapper .boxes .box {
   display: flex;
@@ -136,14 +137,8 @@ table {
   margin-top: 0.5rem;
   margin-bottom: 1rem;
 }
-.body .article .wrapper .boxes .box {
-  display: flex;
-}
-.body .article .wrapper .boxes .box {
-  display: flex;
-}
-.body .article .wrapper .boxes .box {
-  display: flex;
+.body .article .wrapper .boxes .box .image-description .branding {
+  color: gray;
 }
 @media (max-width: 600px) {
   .body .article .boxes {

@@ -1,6 +1,6 @@
 
 @import"./base/reset";
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300;400&display=swap');
 @import"modules/left";
 @import"modules/right";
 
@@ -8,13 +8,11 @@
     box-sizing: border-box;
 }
 .body{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    
-.wrapper{
-
+display:flex;
+justify-content: center;
+align-items: center;
+background-color: white; 
+    .wrapper{
     width:40rem;
     display:flex;
     overflow: hidden;
@@ -22,8 +20,7 @@
     box-shadow: -3px 3px 5px #b9b2b2;
     background-color: white;
     color:rgb(133, 122, 122);
-    font-family: 'Manrope', sans-serif;
-    font-style: italic;  
-
-}
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    }
 }

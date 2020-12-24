@@ -1,0 +1,68 @@
+@import "base/reset";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap');
+
+body{
+    .main {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+    height:100vh;  
+        .header{
+        background-color: white;
+        padding: 15px;
+        display: flex;
+        justify-content: center;
+        }
+        .articles-wrapper{  
+        display: flex; 
+        flex-grow: 1; //permiso para crecer 
+        @media (max-width:600px){
+        display:flex;
+        flex-direction: column;
+        } 
+            .article{
+            display:flex;
+            flex-direction: column;
+            padding: 15px;
+            align-items: stretch;
+            //en este caso todos tienen el mismo contenido. Si uno tuviese mas, creceria mas que lo demas.Para evitar esto pongo width:20% y todos tendrian el mismo tamano
+                &:nth-child(1){ //color pastel hexa (paleta de colores)
+                background-color: #FF9AA2;
+                }  
+                &:nth-child(2){
+                background-color: #FFB7B2;
+                }
+                &:nth-child(3){
+                background-color: #FFDAC1;
+                }
+                &:nth-child(4){
+                background-color: #E2F0CB;
+                }
+                &:last-child{ //ultimo hijo, first-child (primer hijo)
+                background-color: #B5EAD7;
+                }  
+              .article-date{
+               margin-bottom: 1rem; 
+               font-size:0.8rem;
+               //text-transform: uppercase, convierte todo a mayuscula. Lowercase todo a minuscula, capitalize la primera letra de cada palabra mayuscula.
+               }
+              .article-title{
+              font-size:2.4rem;
+              margin-bottom:0.6rem;
+              font-weight: bold;
+               &:hover{
+               color: rgb(197, 115, 156);
+               transition: color 1s ease-in-out;
+               }
+              }
+              .article-text{
+              line-height: 1.2rem;
+              }
+              .red-link{
+              margin-top: auto;
+              text-decoration: none; 
+              }
+            }
+        }
+    }
+}

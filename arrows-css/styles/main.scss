@@ -1,0 +1,78 @@
+@import"base/reset";
+
+*, *:after, *:before{
+    box-sizing: border-box;
+}
+
+.body{
+
+.wrapper{
+display: flex;
+flex-direction: column;
+margin: 0 auto;
+.name{
+  
+}
+.input{  
+    font-size:1.4rem;
+    border:0;
+    border-bottom: 2px solid red;
+    max-width:400px;
+}
+
+}
+
+.article{
+    margin-top: 3rem;
+    background-color: burlywood;
+    max-height: 200px;
+    font-size: 1.2rem;
+    overflow-y: auto; //scroll interno
+}
+
+.boxesWrapper{
+    display: flex;
+    margin-top: 5rem;
+    .box{
+        position: relative;
+        flex-grow: 1; //crecen
+        padding: 1rem;
+        background-color: coral;
+
+        &:nth-child(2n){ //uno no uno si, (2n+1) uno si uno no
+            background-color: blue;
+        }
+        &:before{//no forman parte de HTML
+            content: "*";
+            position: absolute;
+            bottom:100%;
+            right:0;
+            background-color: greenyellow;
+            display:none; //le digo a un elemento del DOM que no se muestre  
+        }
+        &:after{
+            content: "*";
+            position: absolute;
+            top:100%;
+            right:0;
+            background-color: greenyellow;
+            display:none
+        }
+        
+        &:hover{
+            background-color: greenyellow;
+        }
+        &:hover:before{   
+            display:block;
+        }
+        &:hover:after{
+            display:block;
+        }
+        &:active { //se pinta cuando clickeo
+            background-color: red;
+        }
+        
+    }
+}
+
+}
