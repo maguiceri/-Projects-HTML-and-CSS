@@ -1,0 +1,52 @@
+@import "base/reset";
+
+*, *:after, *:before{
+    box-sizing: border-box;
+}
+
+.body{
+    .title{
+        font-size: 2rem;
+        margin-top: 1rem;
+        display:flex;
+        justify-content: center;
+    }
+    .boxesWrapper{
+    display: flex;
+    margin-top: 5rem;
+     .box{
+         display:flex;
+         text-align: center;
+         align-items: center;
+        height: 50px;
+        margin-right: 30px;
+        position: relative;
+        flex-grow: 1; //crecen
+        padding: 1rem;
+        background-color: coral;
+         &:before{//no forman parte de HTML
+            content: "";
+            width:30px;
+            height:50px;
+            position: absolute;
+            left: 100%;
+            top:0;
+            display:block; //le digo a un elemento del DOM que no se muestre
+
+            width: 0;//css-tricks.com
+            height: 0;//css-tricks.com
+            border-top: 25px solid transparent;//css-tricks.com
+            border-left: 10px solid coral;//css-tricks.com
+            border-bottom: 25px solid transparent; //css-tricks.com
+         }
+
+        &:active{
+            background-color: green;
+        }
+        &:active:before{
+            border-left-color: green;//para que se coloree la punta
+        }
+        
+       }
+    }
+}
