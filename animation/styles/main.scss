@@ -1,0 +1,30 @@
+@import "base/reset";
+
+.wrapper{
+width: 100vw;
+height: 100vh;
+background-color: #adf;
+display:Flex;
+align-items: center;
+justify-content: center;
+    .box{
+    background-color: #fafafa;
+    width:200px;
+    height:200px;
+    animation: 
+
+    rotation 3s infinite;
+
+    @keyframes rotation {
+        0% {
+            transform: rotate(0deg)
+        }
+        100%{
+            transform:rotate(360deg)
+        }
+    }
+    
+
+    }
+
+}

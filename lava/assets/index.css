@@ -1,0 +1,253 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+.wrapper .line {
+  width: 60px;
+  border-top: 3px solid #fff;
+}
+.wrapper .hero {
+  padding: 0 2rem 8rem;
+  min-width: 100vh;
+  min-height: 100vw;
+  background-image: url(https://imagenes.diario16.com/wp-content/uploads/2018/03/Art%C3%ADculo-40.-Imagen.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: #999;
+  background-blend-mode: multiply;
+}
+.wrapper .hero .header {
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+.wrapper .hero .header .nav {
+  display: flex;
+  font-family: sans-serif;
+}
+.wrapper .hero .header .nav .link {
+  padding: 5px;
+  margin-right: 10px;
+  color: #FFF;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.wrapper .hero .header .nav .link.link-button {
+  border: 2px solid #FFF;
+}
+.wrapper .hero .hero-title {
+  margin: 6rem 0rem;
+}
+.wrapper .hero .hero-title .title {
+  font-size: 5rem;
+  color: #FFF;
+  margin-bottom: 0.2rem;
+}
+.wrapper .hero .hero-title .sub-title {
+  font-size: 2rem;
+  color: #ddd;
+  margin-bottom: 1rem;
+}
+.wrapper .hero .section-description {
+  color: #FFF;
+  text-align: center;
+  max-width: 450px;
+  margin: 0 auto;
+}
+.wrapper .hero .section-description .description-title {
+  color: #FFF;
+  font-size: 2.4rem;
+  margin-bottom: 0.2rem;
+}
+.wrapper .hero .section-description .description-subtitle {
+  font-size: 1.2rem;
+  color: #CCC;
+  margin-bottom: 1em;
+}
+.wrapper .hero .section-description .line {
+  margin: 0 auto 1rem;
+}
+.wrapper .hero .section-description .description-text {
+  color: #CCC;
+  line-height: 1.6rem;
+}
+.wrapper .last-articles {
+  background-color: #555;
+  padding: 5rem 2rem 8rem;
+}
+.wrapper .last-articles .section-description {
+  color: #FFF;
+  text-align: center;
+  max-width: 450px;
+  margin: 0 auto;
+}
+.wrapper .last-articles .section-description .description-title {
+  color: #FFF;
+  font-size: 2.4rem;
+  margin-bottom: 0.2rem;
+}
+.wrapper .last-articles .section-description .description-subtitle {
+  font-size: 1.2rem;
+  color: #CCC;
+  margin-bottom: 1em;
+}
+.wrapper .last-articles .section-description .line {
+  margin: 0 auto 2rem;
+}
+.wrapper .last-articles .articles-wrapper {
+  display: flex;
+  margin: 0 -20px;
+}
+@media screen and (max-width: 768px) {
+  .wrapper .last-articles .articles-wrapper {
+    flex-direction: column;
+  }
+}
+.wrapper .last-articles .articles-wrapper .article {
+  height: 400px;
+  flex-grow: 1;
+  background-color: #444;
+  margin: 10px;
+  box-shadow: 0px 30px 15px -20px rgba(0, 0, 0, 0.4);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+}
+.wrapper .last-articles .articles-wrapper .article:nth-child(1) {
+  background-image: url(https://images.unsplash.com/photo-1512850183-6d7990f42385?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTB8fGNpdHl8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=60);
+}
+.wrapper .last-articles .articles-wrapper .article:nth-child(2) {
+  background-image: url(https://images.unsplash.com/photo-1543872084-c7bd3822856f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80);
+}
+.wrapper .last-articles .articles-wrapper .article:nth-child(3) {
+  background-image: url(https://images.unsplash.com/photo-1519501025264-65ba15a82390?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80);
+}
+@media screen and (max-width: 768px) {
+  .wrapper .last-articles .articles-wrapper .article {
+    height: 200px;
+  }
+}
+.wrapper .news-letter {
+  background-color: #222;
+  padding: 5em 2em;
+}
+.wrapper .news-letter .section-description {
+  color: #FFF;
+  text-align: center;
+  max-width: 450px;
+  margin: 0 auto;
+}
+.wrapper .news-letter .section-description .description-title {
+  color: #FFF;
+  font-size: 2.4rem;
+  margin-bottom: 0.2rem;
+}
+.wrapper .news-letter .section-description .description-subtitle {
+  font-size: 1.2rem;
+  color: #CCC;
+  margin-bottom: 1em;
+}
+.wrapper .newsletter-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+.wrapper .newsletter-form .email-input {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 2rem;
+  background-color: #333;
+  border: none;
+  color: #FFF;
+  font-size: 1rem;
+}
+.wrapper .newsletter-form .submit-button {
+  display: block;
+  background-color: transparent;
+  border: 2px solid #CCC;
+  color: #CCC;
+  padding: 10px 30px;
+  font-size: 1rem;
+  margin: 0 auto;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+.wrapper .newsletter-form .submit-button:hover {
+  background-color: #CCC;
+  color: #222;
+}
+.wrapper .footer {
+  background-color: #333;
+  padding: 5rem 2rem;
+  display: flex;
+  justify-content: flex-end;
+}
+.wrapper .footer .footer-nav {
+  display: flex;
+  font-family: sans-serif;
+}
+.wrapper .footer .footer-nav .footer-link {
+  font-size: 0.8rem;
+  padding: 5px;
+  margin-right: 10px;
+  color: #FFF;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/*# sourceMappingURL=index.css.map */

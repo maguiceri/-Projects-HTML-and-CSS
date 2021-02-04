@@ -1,0 +1,25 @@
+@import "base/_reset";
+
+.wrapper{
+width: 100vw;
+height: 100vh;
+background-color: #adf;
+display:Flex;
+align-items: center;
+justify-content: center;
+    .box{
+    background-color: #fafafa;
+    width:200px;
+    height:200px;
+
+    transition: 
+    background-color 1s ease-in-out,
+    width 1s ease-in-out;
+
+    &:hover{
+        background-color: blue;
+        width: 300px;
+    }
+
+    }
+}
