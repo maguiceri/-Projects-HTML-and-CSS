@@ -1,25 +1,19 @@
 <html>
     <head>
-        <title>hola</title>
+        <title>Numero primo</title>
     </head>
     <body>
         <script>
             function isPrime (num) {
-
                 if (typeof num == "number"){
-
                     if (Number.isInteger(num) ) {
-
                         var num, i, flag = true;
-
                         for(i = 2; i <= num - 1; i++) {
-
                             if (num % i == 0) { 
                                 flag = false; 
                                 break; 
                             } 
                         }
-
                         if ( flag == true ) {
                             console.log ("es primo");
                         }
@@ -29,17 +23,11 @@
                     }
                     else {console.log ("debe ingresar un numero entero");}
                 }
-
                 else{
                     console.log("Debe ingresar un numero");
                 }
-
             }
-
             console.log (isPrime(2));
-
         </script>
-
     </body>
-
 </html>

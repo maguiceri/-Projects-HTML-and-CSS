@@ -1,4 +1,4 @@
-
+//Dada una variable donde se ingresa el nombre del mes, devolver la cantidad de dias correspondientes.
 function GetDaysOfaMonth(month){
 
 let days;

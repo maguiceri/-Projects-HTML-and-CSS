@@ -1,3 +1,4 @@
+// Dada una variable "x" la cual contiene una letra, determinar si es vocal.
 let x="n";
 
 if (typeof x=="string") {
