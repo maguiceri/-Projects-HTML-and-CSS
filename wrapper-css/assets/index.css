@@ -1,0 +1,29 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper .box {
+  width: 100px;
+  height: 100px;
+  border: 1px solid red;
+  position: relative;
+}
+.wrapper .box.box2:hover .boxchild {
+  display: block;
+}
+.wrapper .box.box2:hover h1 {
+  color: red;
+}
+.wrapper .box.box2 .boxchild {
+  width: 100%;
+  height: 100%;
+  background-color: green;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+}
+
+/*# sourceMappingURL=index.css.map */

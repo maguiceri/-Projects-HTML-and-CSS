@@ -37,7 +37,7 @@ const handleInput = () => {
   
   for (let i = 0; i < results.length; i++) {
     const listItem = document.createElement("li");
-    listItem.innerHTML = results[i];
+    listItem.innerHTML=results[i];
     list.appendChild(listItem);
   }
   
