@@ -1,10 +1,16 @@
 
-const persona = {
-    edad: 22
-};
+function adult (age){
 
-if (persona.edad >= 18 ) {
-    console.log ("es mayor")
-} else {
-    console.log( "es menor")
+    if ( typeof(age) == "number") {
+        if (age >= 18 ) {
+            console.log ("usted es mayor de edad")
+        } else {
+            console.log( "usted es menor de edad")
+        }
+    }
+    else{
+        console.log("debe ingresar un numero");
+    }
 }
+
+adult (22);

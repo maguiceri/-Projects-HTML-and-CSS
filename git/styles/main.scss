@@ -1,0 +1,77 @@
+@import"base/reset";
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+$primary:#0099aa;
+
+
+*, *:after, *:before{
+    box-sizing: border-box;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: lighten($primary, 7);
+    font-size:1.1rem;
+    color: white;
+    font-family: 'Lato', sans-serif;
+
+    .main{
+        display: flex;
+        flex-direction: column;
+        max-width: 20rem;
+        
+       .input{
+            height:3rem;
+            width:100%;
+            border:none;
+            padding:0 1rem;
+            border-radius: 0.2rem;
+            color: darken(#0099aa, 20);
+            font-size:1.1rem;
+            color: rgb(100, 99, 99);
+        
+            
+       }
+       .button{
+            width:100%;
+            padding:1rem 2rem;
+            border:none;
+            margin:1rem 0 0 0;
+            background: lighten($primary, 20);
+            color: darken($primary, 10);
+            border-radius:0.4rem;
+            font-weight:700;
+            font-size:1.1rem;
+            &:hover {
+            background:lighten($primary, 15);
+            }
+        
+       }
+        .car{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            background: lighten($primary, 5);
+            margin: 7rem auto 2rem;
+            border: solid 5px $primary;
+            border-radius: 0.4rem;
+            padding: 5.5rem 2.5rem 1rem;
+            font-weight: 900;
+            
+            .real-name{
+                margin-bottom: 1rem;
+            }
+            .location{
+                margin-bottom: 1rem;
+            }
+            .public-repos{
+                margin-bottom: 1rem;
+            }
+            .followers{
+                margin-bottom: 1rem;
+            }
+            
+        }
+    }
+}

@@ -27,7 +27,7 @@ GetDaysOfaMonth("agosto");
 
 
 function GreetByBirtMonth(month){
-const days = GetDaysOfaMonth(month);
+const days = GetDaysOfaMonth(month);// days es igual a lo que retorne la funcion GetDaysOfaMonth;
 
 if(days==31){
     console.log("Felicidades por cumplir en un mes tan copado");

@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #00b9ce;
+  font-size: 1.1rem;
+  color: white;
+  font-family: "Lato", sans-serif;
+}
+.body .main {
+  display: flex;
+  flex-direction: column;
+  max-width: 20rem;
+}
+.body .main .input {
+  height: 3rem;
+  width: 100%;
+  border: none;
+  padding: 0 1rem;
+  border-radius: 0.2rem;
+  color: #003d44;
+  font-size: 1.1rem;
+  color: #646363;
+}
+.body .main .button {
+  width: 100%;
+  padding: 1rem 2rem;
+  border: none;
+  margin: 1rem 0 0 0;
+  background: #11e7ff;
+  color: #006b77;
+  border-radius: 0.4rem;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+.body .main .button:hover {
+  background: #00def7;
+}
+.body .main .car {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background: #00b0c4;
+  margin: 7rem auto 2rem;
+  border: solid 5px #0099aa;
+  border-radius: 0.4rem;
+  padding: 5.5rem 2.5rem 1rem;
+  font-weight: 900;
+}
+.body .main .car .real-name {
+  margin-bottom: 1rem;
+}
+.body .main .car .location {
+  margin-bottom: 1rem;
+}
+.body .main .car .public-repos {
+  margin-bottom: 1rem;
+}
+.body .main .car .followers {
+  margin-bottom: 1rem;
+}
+
+/*# sourceMappingURL=index.css.map */
