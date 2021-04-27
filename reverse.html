@@ -7,16 +7,12 @@
 
         <script>
 
-            function invertNumber(num) {
-            let st = num.toString();
-            let str = st.split('');
-            let stri = str.reverse();
-            let strin = stri.join('');
-            
-            return strin; 
+            function reverse(x) {
+                let st = x.toString().split('').reverse().join('');
+                return st; 
             }
             
-            console.log (invertNumber(345345));
+            console.log (reverse(743));
 
         </script>
     </body>

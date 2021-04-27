@@ -8,10 +8,15 @@ let words = {
 
 }
 
-for (let index in words) {
 
-    if (word == index) {
-        console.log ("No se escribe " + index + " se escribe " + words[index])
+function correctWord (word) {
+    for (let index in words) {
+
+        if (word == index) {
+            console.log ("No se escribe " + index + " se escribe " + words[index])
+        }
+    
     }
-
 }
+
+correctWord ("mondiola");
