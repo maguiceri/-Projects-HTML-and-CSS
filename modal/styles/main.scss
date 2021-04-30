@@ -1,0 +1,33 @@
+@import "base/reset";
+
+*, *:after, *:before {
+    box-sizing: border-box;
+}
+
+body{
+    .button{
+        margin-top:1rem;
+        margin-left: 5rem;
+        padding: 1rem 2rem;
+       
+    }
+
+    .modal{
+        display:none;
+
+        &.open{
+            display:inline-block;
+            display:flex;
+            margin: 0 auto;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(87, 87, 228);
+            max-width: 35rem;
+            min-height: 35rem;
+            .courseit{
+                color:white;
+                font-size: 3rem;
+            }
+        }   
+    } 
+}
