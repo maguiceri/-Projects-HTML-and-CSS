@@ -1,118 +1,95 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block;
-}
-
-body {
-  line-height: 1;
-}
-
-ol, ul {
-  list-style: none;
-}
-
-blockquote, q {
-  quotes: none;
-}
-
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: "";
-  content: none;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-*, *:after, *:before {
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900");
+* {
   box-sizing: border-box;
 }
 
-.body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #00b9ce;
-  font-size: 1.1rem;
-  color: white;
+.body-wrapper {
   font-family: "Lato", sans-serif;
+  background-color: #12ABBC;
+  min-height: 100vh;
+  padding: 30px 0;
 }
-.body .main {
+.body-wrapper .wrapper {
+  max-width: 320px;
+  margin: 0 auto;
+}
+.body-wrapper .wrapper .form {
   display: flex;
   flex-direction: column;
-  max-width: 20rem;
 }
-.body .main .input {
-  height: 3rem;
-  width: 100%;
-  border: none;
-  padding: 0 1rem;
-  border-radius: 0.2rem;
-  color: #003d44;
-  font-size: 1.1rem;
-  color: #646363;
+.body-wrapper .wrapper .form .username-input {
+  font-size: 1.05rem;
+  height: 48px;
+  border: 0px;
+  border-radius: 3px;
+  margin-bottom: 15px;
+  padding-left: 13px;
+  outline: none;
 }
-.body .main .button {
-  width: 100%;
-  padding: 1rem 2rem;
-  border: none;
-  margin: 1rem 0 0 0;
-  background: #11e7ff;
-  color: #006b77;
-  border-radius: 0.4rem;
+.body-wrapper .wrapper .form .button {
+  font-size: 1.05rem;
   font-weight: 700;
-  font-size: 1.1rem;
+  color: #006677;
+  background-color: #40D9EA;
+  height: 48px;
+  border: 0px;
+  border-radius: 5px;
+  margin-bottom: 100px;
+  outline: none;
+  transition: 0.7s;
 }
-.body .main .button:hover {
-  background: #00def7;
+.body-wrapper .wrapper .form .button:hover {
+  background-color: #0099aa;
 }
-.body .main .car {
-  display: flex;
-  flex-direction: column;
+.body-wrapper .wrapper .error-js {
   text-align: center;
-  background: #00b0c4;
-  margin: 7rem auto 2rem;
-  border: solid 5px #0099aa;
-  border-radius: 0.4rem;
-  padding: 5.5rem 2.5rem 1rem;
+  font-weight: 700;
+  color: #fff;
+}
+.body-wrapper .wrapper .card-wrapper {
+  display: none;
+  flex-direction: column;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+  background-color: #0DA6B7;
+  border: 5px solid #0099aa;
+  border-radius: 5px;
+  padding-bottom: 15px;
+}
+.body-wrapper .wrapper .card-wrapper .card-img {
+  height: 160px;
+  width: 160px;
+  background-color: #0099aa;
+  object-fit: cover;
+  border: 5px solid #0099aa;
+  border-radius: 50%;
+  margin: -25% auto 10px;
+}
+.body-wrapper .wrapper .card-wrapper .card-info {
+  line-height: 1.2rem;
+  padding-bottom: 4px;
+}
+.body-wrapper .wrapper .card-wrapper .new-card-info {
+  font-weight: 300;
+  max-width: 210px;
+  margin: 0 auto;
+  padding-bottom: 15px;
+}
+.body-wrapper .wrapper .card-wrapper .username {
+  font-size: 2rem;
   font-weight: 900;
+  color: #fff;
+  text-decoration: none underline;
+  margin-bottom: 10px;
+  transition: 0.7s;
 }
-.body .main .car .real-name {
-  margin-bottom: 1rem;
+.body-wrapper .wrapper .card-wrapper .username:visited {
+  color: #fff;
 }
-.body .main .car .location {
-  margin-bottom: 1rem;
-}
-.body .main .car .public-repos {
-  margin-bottom: 1rem;
-}
-.body .main .car .followers {
-  margin-bottom: 1rem;
+.body-wrapper .wrapper .card-wrapper .username:hover {
+  color: #0D8092;
 }
 
 /*# sourceMappingURL=index.css.map */
