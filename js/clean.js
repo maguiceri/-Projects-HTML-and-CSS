@@ -1,5 +1,5 @@
 const clean = () => {
-    document.querySelectorAll(".inputText").forEach ( function (input) { input.value = null; })
+    document.querySelectorAll(".inputText").forEach ( function(input) {input.value = null;})
 } 
 
 
