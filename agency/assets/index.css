@@ -59,6 +59,7 @@ table {
   font-family: "Montserrat", sans-serif;
 }
 .body .article {
+  margin: 0;
   font-weight: 400;
   max-width: 35rem;
   display: flex;
@@ -67,19 +68,20 @@ table {
 }
 .body .article .head {
   text-align: center;
+  margin-top: 4rem;
 }
 .body .article .head .title {
-  margin-top: 1rem;
+  margin-top: 4rem;
   font-size: 1rem;
   font-weight: 600;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   display: flex;
   justify-content: center;
 }
 .body .article .head .sub-title {
   font-size: 1.3rem;
   line-height: 2rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   font-weight: 400;
 }
 .body .article .head .sub-title .link {
@@ -139,13 +141,6 @@ table {
 }
 .body .article .wrapper .boxes .box .image-description .branding {
   color: gray;
-}
-@media (max-width: 600px) {
-  .body .article .boxes {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
 }
 
 /*# sourceMappingURL=index.css.map */
