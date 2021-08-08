@@ -2,10 +2,10 @@
 
 
 function findHandler(str) {
-    const splitted = str.split(" ")
-    
-    const result = splitted.filter(word => {
+    const splitted = str.split(" ")   
+    const result = splitted.found(word => {
       return word[0] == '@'
     })
-      return result[0]
-  }
+    
+    return result
+}
