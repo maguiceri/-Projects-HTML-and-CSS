@@ -3,7 +3,7 @@
 
 function findHandler(str) {
     const splitted = str.split(" ")   
-    const result = splitted.found(word => {
+    const result = splitted.find(word => {
       return word[0] == '@'
     })
     
